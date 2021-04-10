@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./Style/index.css">
+    <script src="./Script/index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>ScriBBler</title>
+</head>
+ <body >
+
+    
+     
+         <div id="logo">ScriBBler</div>
+         <div id="sub-heading">Explore,Imagine, Create</div>
+         <div class="login-top-panel">
+             <div><button id="sign-up-btn" onclick="signup()">Sign Up</button></div>
+             <div><button id="sign-in-btn" onclick="signin()">Sign In</button></div>
+         </div>
+
+
+         <div class="post-panel">
+             <div><a href="./html/postslist.html"><button style="background-color:darkorange; border:none;border-radius:7px;">All Posts</button></a></div>
+             <div><button style="background-color:darkorange; border:none;border-radius:7px;" onclick="createpost()">Create Post</button></div>
+         </div>
+     
+
+            <div id="modal">
+             <section>
+                 <div id="sign-up-tbl" class="modal-content">
+                     <div id="form-title" style="border-bottom: 1px solid black; font-size:20px;padding-bottom:5px;">Getting Started<i class="fas fa-times" style="float:right; cursor:pointer" onclick="signup1()"></i></div>
+                     <br>
+                     <form id="form1">
+                         <label>Name</label>
+                         <input type="text" placeholder="Enter your Name">
+                         <label>Username</label>
+                         <input type="text" placeholder="Enter your Username">
+                         <label>Password</label>
+                         <input type="password" placeholder="e.g abc">
+                         <label>Confirm Password</label>
+                         <input type="password" placeholder="Confirm Password">
+                     </form>
+                     <br>
+                     <div><button style="background-color:lawngreen;border:none;width:100%;">Sign Up</button></div>
+                 </div>
+             </section>
+         </div>
+
+     <div id="modal2">
+     <section>
+         <div id="sign-in-tbl">
+             <div style="border-bottom:1px solid black;font-size:22px;width:108%;"><i class="fas fa-times" style="float:right;cursor:pointer" onclick="signin1()"></i>Welcome Back!</div>
+             <div>
+                 <form>
+                     <label>Name</label>
+                     <input type="text" placeholder="Enter your Name" style="padding:1em;">
+                     <label>Password</label>
+                     <input type="password" placeholder="Enter your Password" style="padding:1em;">
+                     </form>
+                 <br>
+                 <button style="background-color:lawngreen;width:100%; padding:1em;border:none">Sign In</button>
+             </div>
+
+         </div>
+         </section>
+         </div> 
+
+     <div id="modal3">
+     <div id="create-post">
+         <div style="border-bottom:1px solid black; padding:3px"><i class="fas fa-times" onclick="creatpostclose()" style="float:right; cursor:pointer"></i>Pen your Post</div>
+         <div>
+             <form>
+                 <label>Title</label>
+                 <input type="text" placeholder="Enter the Title of Your Post" style="padding:1em">
+                 <div>Content</div>
+                 <textarea placeholder="Enter the Contents of your Post" rows="30" cols="400"  style= "margin: 0px; width: 99%;padding-left:10px;"></textarea>
+             </form>
+             <br>
+             <button style="margin-left:50%;background-color:lawngreen;border:none">Create Post</button>
+         </div>
+     </div>
+         </div>
+</body>
+
+</html>

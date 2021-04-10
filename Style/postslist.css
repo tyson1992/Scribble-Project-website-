@@ -1,0 +1,187 @@
+﻿body {
+    background-color: #fee1c7;
+}
+
+#logo {
+    font-family: 'Montez', cursive;
+    font-size: 3em;
+    color: blue;
+    position: relative;
+}
+
+#sub-heading {
+    font-family: sans-serif;
+    position: relative;
+    color:blue;
+}
+
+.login-top-panel {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: -5em;
+    position: relative;
+}
+
+#sign-in-btn {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+}
+
+#sign-up-btn {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+}
+
+button {
+    margin-left: 5px
+}
+
+#block1{
+
+    display:flex;
+    flex-direction:row;
+    margin-top:2%;
+}
+
+
+#post1 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: sans-serif;
+    background-color: white;
+    width: 30%;
+    border-radius: 2em;
+    margin-top: 1%;
+    font-size: 15px;
+    margin-left: 7%;
+    font-weight: bold;
+    box-shadow: 10px 6px 18px 0px #888888;
+}
+
+#post2 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: sans-serif;
+    background-color: white;
+    width: 30%;
+    border-radius: 2em;
+    margin-top: 1%;
+    font-size: 15px;
+    margin-left: 20%;
+    font-weight: bold;
+    box-shadow: 10px 6px 18px 0px #888888;
+}
+
+#block2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#post3 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: sans-serif;
+    background-color: white;
+    width: 30%;
+    border-radius: 2em;
+    margin-top: 1%;
+    margin-left: 7%;
+    font-size: 15px;
+    box-shadow: 10px 6px 18px 0px #888888;
+    font-weight: bold;
+}
+
+#post4 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: sans-serif;
+    background-color: white;
+    width: 30%;
+    border-radius: 2em;
+    margin-top: 1%;
+    font-size: 15px;
+    margin-left: 20%;
+    box-shadow: 10px 6px 18px 0px #888888;
+    font-weight: bold;
+}
+
+#post5 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: sans-serif;
+    background-color: white;
+    width: 31%;
+    border-radius: 2em;
+    margin-top: 1%;
+    font-size: 15px;
+    margin-left: 32%;
+    box-shadow: 10px 6px 18px 0px #888888;
+    font-weight: bold;
+}
+
+#post1,#post2,#post3,post4,#post5 {
+    transition: box-shadow .1s;
+   
+    background: #fff;
+    float: left;
+}
+    #post1:hover {
+        box-shadow: 0 0 20px rgba(33,33,33,.3);
+    }
+
+    #post2:hover {
+        box-shadow: 0 0 20px rgba(33,33,33,.3);
+    }
+    #post3:hover {
+        box-shadow: 0 0 20px rgba(33,33,33,.3);
+    }
+    #post4:hover {
+        box-shadow: 0 0 20px rgba(33,33,33,.3);
+    }
+   #post5:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,.3);
+    }
+
+#delete-post{
+    background-color:white;
+    width:20%;
+    display:flex;
+    flex-direction:column;
+    z-index:12;
+    padding:2%;
+    font-family:sans-serif;
+    margin-top:14%;
+    margin-left:35%;
+    position:relative;
+    line-height:12px;
+    color:white;
+
+}
+#box1{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 123; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    top:0;
+    left:0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    position:center;
+}
